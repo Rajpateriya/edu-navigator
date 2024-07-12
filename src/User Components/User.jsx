@@ -1,12 +1,12 @@
 import React, { useContext, useState } from 'react'
 
-import UserDashboardSidebar from '../Components/SideBars/UserDashboardSidebar'
-import Dashboard from '../Components/User Components/Dashboard'
-import { MyContext } from '../Components/MyContext'
+import UserDashboardSidebar from '../SideBars/UserDashboardSidebar'
+import Dashboard from './Dashboard'
+import { MyContext } from './MyContext'
 import { SpinnerCircular } from 'spinners-react'
-import UserNavbar from '../Components/NavBars/UserNavbar'
-import TeacherProfile from '../Components/User Components/Teachers/TeacherProfile'
-import StudentProfile from '../Components/User Components/Students/StudentProfile'
+import UserNavbar from '../NavBars/UserNavbar'
+import TeacherProfile from './Teachers/TeacherProfile'
+import StudentProfile from './Students/StudentProfile'
 
 function User() {
 

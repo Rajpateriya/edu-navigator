@@ -1,6 +1,6 @@
 import React from 'react'
-import { slideRight } from '../SideBars/AdminDashboardSidebar'
-import adminImg from '../../Assets/Images/user5.jpg'
+import { slideRight } from '../SideBars/UserDashboardSidebar'
+// import userImg from '../../Assets/Images/user5.jpg'
 
 function UserNavbar() {
     return (
@@ -24,7 +24,7 @@ function UserNavbar() {
             <span className='flex items-center justify-center gap-4 sm:gap-12'>
                 <span className='flex items-center justify-center gap-2 cursor-pointer'>
                     <span className=' h-12 w-12 overflow-hidden' style={{ borderRadius: '50%' }}>
-                        <img className='h-full w-full object-cover' src={adminImg} alt="loading error" />
+                        <img className='h-full w-full object-cover' src="https://e7.pngegg.com/pngimages/136/22/png-clipart-user-profile-computer-icons-girl-customer-avatar-angle-heroes-thumbnail.png" alt="loading error" />
                     </span>
 
                     <span className='hidden flex-col items-center justify-center gap-0.5 sm:flex'>

@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from "react";
 import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Admin from "./Pages/Admin";
-import Login from "./Pages/Login";
+// import Admin from "./Pages/Admin";
+// import Login from "./Pages/Login";
 import axios from "axios";
-import { MyContext } from "./Components/MyContext";
+import { MyContext } from "./User Components/MyContext";
 import 'react-loading-skeleton/dist/skeleton.css'
-import  InputOTPForm  from "./Pages/InputOTPForm";
 
-import Home from "./Pages/Home";
-// import StudentProfile from "./Components/User Components/Students/StudentProfile";
-// import User from "./Pages/User";
-// import TeacherProfile from "./Components/User Components/Teachers/TeacherProfile";
-import LoginForm from "./Pages/LoginForm";
-import VerifyForm from "./Pages/VerifyForm";
+// import  InputOTPForm  from "./Pages/InputOTPForm";
+
+// import Home from "./Pages/Home";
+import StudentProfile from "./User Components/Students/StudentProfile";
+import User from "./User Components/User";
+import TeacherProfile from "./User Components/Teachers/TeacherProfile";
+// import LoginForm from "./Pages/LoginForm";
+// import VerifyForm from "./Pages/VerifyForm";
 
 
 
@@ -61,16 +62,11 @@ function App() {
       <div className="App">
         <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Home />}></Route>
-            <Route path='/admin-panel' element={<Admin />}></Route>
-            <Route path='/login' element={<Login />}></Route>
-            <Route path='/input-otp' element={<InputOTPForm/>}></Route>
-            {/*   <Route path='/studentprofile' element={<StudentProfile/>}></Route>
-            <Route path='/dashboard' element={<User/>}></Route>
+          
+            <Route path='/studentprofile' element={<StudentProfile/>}></Route>
+            <Route path='/' element={<User/>}></Route>
             <Route path='/teacherprofile' element={<TeacherProfile/>}></Route>
-            <Route path='/modal' element={<Modal/>}></Route> */}
-            <Route path='/loginform' element={<LoginForm/>}></Route>
-            <Route path='/verifyform' element={<VerifyForm/>}></Route>
+            
             
           </Routes>
         </BrowserRouter>

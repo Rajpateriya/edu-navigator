@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { MyContext } from '../MyContext'
+import { MyContext } from './MyContext'
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import axios from 'axios'
