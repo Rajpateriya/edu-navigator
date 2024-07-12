@@ -1,6 +1,6 @@
 import React from 'react'
 import { slideRight } from '../SideBars/UserDashboardSidebar'
-// import userImg from '../../Assets/Images/user5.jpg'
+
 
 function UserNavbar() {
     return (

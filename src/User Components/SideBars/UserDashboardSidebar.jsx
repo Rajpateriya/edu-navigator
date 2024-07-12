@@ -10,14 +10,14 @@ import { MdClass as Classes } from "react-icons/md";
 import { GiProgression as Overview } from "react-icons/gi";
 import { PiExamFill as Exams } from "react-icons/pi";
 
-import Dashboard from '../User Components/Dashboard';
+import Dashboard from '../Dashboard';
 
 
-import StudentProfile from '../User Components/Students/StudentProfile'
-import TeacherProfile from '../User Components/Teachers/TeacherProfile'
+import StudentProfile from '../Students/StudentProfile'
+import TeacherProfile from '../Teachers/TeacherProfile'
 
 import { tab } from '@testing-library/user-event/dist/tab';
-import ClassTimeTable from '../User Components/TimeTable/ClassTimeTable';
+import ClassTimeTable from '../TimeTable/ClassTimeTable';
 
 
 

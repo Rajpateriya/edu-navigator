@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import './index.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Admin from "./Pages/Admin";
+import Admin from "./Admin Components/Admin";
 // import Login from "./Pages/Login";
 import axios from "axios";
 import { MyContext } from "./User Components/MyContext";
@@ -13,6 +13,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import StudentProfile from "./User Components/Students/StudentProfile";
 import User from "./User Components/User";
 import TeacherProfile from "./User Components/Teachers/TeacherProfile";
+import Dashboard from "./Admin Components/Dashboard";
 // import LoginForm from "./Pages/LoginForm";
 // import VerifyForm from "./Pages/VerifyForm";
 
@@ -65,7 +66,9 @@ function App() {
           
             <Route path='/studentprofile' element={<StudentProfile/>}></Route>
             <Route path='/' element={<User/>}></Route>
+            <Route path='/admin-panel' element={<Admin/>}></Route>
             <Route path='/teacherprofile' element={<TeacherProfile/>}></Route>
+            {/* <Route path='/dashboard' element={<Dashboard/>}></Route> */}
             
             
           </Routes>
