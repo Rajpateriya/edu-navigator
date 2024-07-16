@@ -22,7 +22,7 @@ const TeacherProfile = () => {
             />
           </div>
           <div className="grid gap-2 text-center">
-            <h2 className="text-2xl font-bold">John Doe</h2>
+            <h2 className="text-2xl font-bold">Raj</h2>
             <div className="text-gray-200">Teacher ID: T12345</div>
           </div>
         </div>

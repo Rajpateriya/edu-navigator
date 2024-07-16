@@ -18,7 +18,7 @@ const StudentProfile = () => {
             />
           </div>
           <div className="grid gap-2 text-center">
-            <h2 className="text-2xl font-bold">Sophia Anderson</h2>
+            <h2 className="text-2xl font-bold">Raj Pateriya</h2>
             <div className="text-gray-200">Student ID: 12345</div>
           </div>
         </div>
@@ -33,7 +33,7 @@ const StudentProfile = () => {
                 </div>
                 <div className="grid gap-1">
                   <div className="text-gray-400">Email</div>
-                  <div>sophia@example.com</div>
+                  <div>rpateriya111@gmail.com</div>
                 </div>
                 <div className="grid gap-1">
                   <div className="text-gray-400">Class</div>
